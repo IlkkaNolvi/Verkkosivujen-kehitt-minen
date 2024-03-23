@@ -1,0 +1,29 @@
+body{
+    background: blue;
+}
+
+h1{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+h2{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+p{
+    background: red;
+    border-radius: 20px;
+}
+
+ol{
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
