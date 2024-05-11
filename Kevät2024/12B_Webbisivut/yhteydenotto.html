@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NCO Oy</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigointipalkki -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">NCO Oy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Etusivu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="palvelut.html">Palvelut</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ohjelmistot.html">Ohjelmistot</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="meista.html">Meistä</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="yhteydenotto.html">Yhteydenotto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <!-- Section-osio -->
+    <section class="container mt-4">
+        <h1>Yhteydenotto</h1>
+        <p>Täytä alla olevaan lomakkeeseen yhteystietosi, niin olemme sinuun pikaisesti yhteydessä:</p>
+        <div class="row">
+          <div class="col-form">
+            <!-- Lomake -->
+            <form action="/action_page.php">
+              <label for="fname">Etunimi:</label><br>
+              <input type="text" id="fname" name="firstname" placeholder="Nimesi.."><br>
+      
+              <label for="lname">Sukunimi:</label><br>
+              <input type="text" id="lname" name="lastname" placeholder="Sukunimesi.."><br>
+      
+              <label for="company">Yritys:</label><br>
+              <input type="text" id="company" name="company" placeholder="Yrityksesi.."> <br>
+              
+              <label for="phone">Puhelinnumero:</label><br>
+              <input type="text" id="phone" name="phone" placeholder="Puhelinnumerosi.."><br>
+              
+              <label for="email">Sähköposti:</label><br>
+              <input type="text" id="email" name="email" placeholder="Sähköpostiosoitteesi.."><br>
+          
+              <label for="message">Viesti:</label><br>
+              <textarea id="message" name="message" placeholder="Kirjoita viestisi.." style="height:200px"></textarea><br>
+          
+              <input type="submit" value="Lähetä">
+            </form>
+          </div>
+          <div class="col-img">
+            <!-- Kuva -->
+            <img src="yhteys.jpg" alt="yhteys">
+          </div>
+        </div>
+      </section>
+      <br>
+
+    <!-- Footer -->
+<footer class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Nolvi Consulting Oy<br>Alitalontie 10A, 02880 Veikkola<br>info@nco.com<br>p. 020 123456</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <a href="index.html" class="text-white">Etusivu</a> |
+          <a href="palvelut.html" class="text-white">Palvelut</a> |
+          <a href="ohjelmistot.html" class="text-white">Ohjelmistot</a> |
+          <a href="meista.html" class="text-white">Meistä</a> |
+          <a href="yhteydenotto.html" class="text-white">Yhteydenotto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  

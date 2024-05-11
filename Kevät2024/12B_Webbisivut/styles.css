@@ -1,0 +1,35 @@
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.navbar, footer {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: left;
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .row .col-form {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.container .row .col-img {
+  flex: 0 0 30%;
+  max-width: 30%;
+  text-align: center;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
