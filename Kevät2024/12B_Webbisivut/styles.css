@@ -26,7 +26,7 @@ h1 {
 .container .row .col-img {
   flex: 0 0 30%;
   max-width: 30%;
-  text-align: center;
+  text-align: right;
 }
 
 .container img {
