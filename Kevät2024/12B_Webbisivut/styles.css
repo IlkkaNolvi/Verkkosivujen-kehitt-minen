@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bold;
+}
+
 h1 {
   text-align: left;
 }
@@ -24,9 +29,9 @@ h1 {
 }
 
 .container .row .col-img {
-  flex: 0 0 30%;
-  max-width: 30%;
-  text-align: right;
+  flex: 0 0 90%;
+  max-width: 90%;
+  text-align: left;
 }
 
 .container img {
